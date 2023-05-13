@@ -7,6 +7,10 @@ public class Desktop implements Hardware, Software{
 		System.out.println("AMD");
 		
 	}
+	public void ios() {
+		System.out.println("mac");
+
+	}
 
 	@Override
 	public void hardwareResources() {
@@ -20,6 +24,7 @@ public class Desktop implements Hardware, Software{
 		d.softwareResources();
 		d.hardwareResources();
 		d.desktopModel();
+		d.ios();
 	}
 
 }
