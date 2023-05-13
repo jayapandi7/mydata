@@ -7,8 +7,12 @@ public class Desktop implements Hardware, Software{
 		System.out.println("AMD");
 		
 	}
+	
 	public void ios() {
 		System.out.println("mac");
+	}
+	public void comali() {
+		System.out.println("jayam ravi");
 
 	}
 
@@ -25,6 +29,7 @@ public class Desktop implements Hardware, Software{
 		d.hardwareResources();
 		d.desktopModel();
 		d.ios();
+		d.comali();
 	}
 
 }
