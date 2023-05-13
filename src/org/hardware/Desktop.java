@@ -11,6 +11,10 @@ public class Desktop implements Hardware, Software{
 	public void ios() {
 		System.out.println("mac");
 	}
+	public void example() {
+		// TODO Auto-generated method stub
+
+	}
 	public void comali() {
 		System.out.println("jayam ravi");
 
