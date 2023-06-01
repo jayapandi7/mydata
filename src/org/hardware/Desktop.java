@@ -19,6 +19,11 @@ public class Desktop implements Hardware, Software{
 		System.out.println("jayam ravi");
 
 	}
+	
+	private void friendName() {
+		System.out.println("myself");
+
+	}
 
 	@Override
 	public void hardwareResources() {
